@@ -5,7 +5,7 @@ using System.Net.Sockets;
 using System.Text;
 
 const int port = 1303;
-var ipPoint = new IPEndPoint(IPAddress.Loopback, port);
+var ipPoint = new IPEndPoint(IPAddress.Any, port);
 
 var listenSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 try

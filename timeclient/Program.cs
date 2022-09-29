@@ -21,7 +21,7 @@ try
     // получаем ответ
     var data = new byte[256]; // буфер для ответа
     StringBuilder builder = new StringBuilder();
-    int bytes = 0; // количество полученных байт
+    var bytes = 0; // количество полученных байт
  
     do
     {
