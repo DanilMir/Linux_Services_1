@@ -12,6 +12,11 @@ sudo apt-get install -y dotnet6
 
 ### Запуск Сервер/Клиент
 
+Скопировать репозиторий
+```
+git clone https://github.com/DanilMir/Linux_Services_1
+```
+
 Переход в директорию решения
 ```
 cd Linux_Services_1
