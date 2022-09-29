@@ -24,7 +24,6 @@ try
         
         // Генерируем и отправляем сообщение
         var message = DateTime.Now.ToString("dd.MM.yyyy HH:mm");
-        Console.WriteLine(message);
         var data = Encoding.Unicode.GetBytes(message);
         handler.Send(data);
         
