@@ -9,3 +9,20 @@ sudo apt-get install -y dotnet6
 ```
 
 Подробнее/установка на другие дистрибутивы Linux: https://learn.microsoft.com/ru-ru/dotnet/core/install/linux
+
+### Запуск Сервер/Клиент
+
+Переход в директорию решения
+```
+cd Linux_Services_1
+```
+
+Запуск сервера
+```
+dotnet run --project ./timeserver/
+```
+
+Запуск клиента
+```
+dotnet run --project ./timeclient/
+```
